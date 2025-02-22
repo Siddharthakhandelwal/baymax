@@ -1,0 +1,14 @@
+blank =0
+home 1
+listning 2
+
+temp check 3 and data display 4
+med page-5,6 ,7
+tts{if u want alternative options such as homeo , more alophatics, ayurvedic press the button down below}
+SPRAY - 8
+qr page 9
+TO DISPLAY THE SCANS RESULTS 10
+ERROR PAEG  11
+BUY US A COIFEE 12
+
+palm direction13
