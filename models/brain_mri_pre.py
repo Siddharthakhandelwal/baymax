@@ -8,12 +8,12 @@ import os
 import subprocess
 from fastapi import FastAPI, HTTPException
 
-app = FastAPI()
-@app.post("/mri")
+# app = FastAPI()
+# @app.post("/mri")
 
 def mri():
     #model to classify the image 
-    subprocess.run(["curl", "-o", "newfilename.jpg", "https://bay-max-alpha.vercel.app/api/latest-pdf"])
+    # subprocess.run(["curl", "-o", "newfilename.jpg", "https://bay-max-alpha.vercel.app/api/latest-pdf"])
     img_path = "newfilename.jpg"
     class_labels = ['Glioma', 'Meningioma', 'Notumar', 'Piuitary']  # Replace with actual class names
     model = load_model('Brain.h5')
@@ -41,6 +41,7 @@ def mri():
 
     print(result)
 
-if __name__ == '__main__':
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5000)
+# if __name__ == '__main__':
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=5000)
+mri()

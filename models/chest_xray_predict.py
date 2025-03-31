@@ -16,7 +16,7 @@ def predict_xray_image(model, img_path):
 
 
 
-loaded_model = tf.keras.models.load_model('Chest-X_Ray.h5')
+loaded_model = tf.keras.models.load_model('Chest-X_Ray_inc.h5')
 # Example usage of the prediction functionperson1_virus_6.jpeg
-img_path ='person1_virus_6.jpeg'
+img_path ='brain.jpg'
 predict_xray_image(loaded_model, img_path)
